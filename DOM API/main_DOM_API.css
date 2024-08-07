@@ -1,7 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    /* background-color: burlywood; */
 }
 
 .card-title {
     color: blue;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* flex-wrap controla si es single-line o multi-line */
+/* gap da espacio entre contenedores */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-img-container img {
+    width: 100%;
+    border-radius: 50%; 
+}
+
+/* border-radius: 50%; lo hace circular*/

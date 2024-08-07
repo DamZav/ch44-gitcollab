@@ -11,7 +11,7 @@ console.log(p1);
 console.log(h2list);
 console.log(textInput);
 
-p1.textContent = "Texto dinámico";
+// p1.textContent = "Texto dinámico";
 
 // textInput.addEventListener("input", (e) => {
 //     console.log(e);
